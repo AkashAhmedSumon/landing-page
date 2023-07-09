@@ -198,7 +198,7 @@ h2.plan-institute {
 /* Plan Banner Style */
 
 .plan-banner {
-    background-image: url("images/watch.png"),linear-gradient(45deg, #0c4fc3, transparent);
+    background-image: url("images/gradient1.png"),url("images/watch.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
