@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+/* Default primary btn */
+.bg-primary {
+    background-color: #fff;
+    border: none;
+    padding: 20px 30px;
+    color: #1f72b6;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 6px;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -moz-transition: 01s;
+    -ms-transition: 01s;
+    -o-transition: 01s;
+}
+.bg-primary:hover{
+    background-color: #1f72b6;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #1f72b6;
+    border: none;
+    padding: 20px 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 6px;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -moz-transition: 01s;
+    -ms-transition: 01s;
+    -o-transition: 01s;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #1f72b6;
+}
+
+.banner-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/banner/banner3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+header {
+    display: flex;
+    justify-content: end;
+}
+
+.banner-content {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    text-align: right;
+    max-width: 600px;
+}
+h1.banner-title {
+    font-size: 50px;
+    color: #fff;
+}
+p.banner-description {
+    font-size: 22px;
+    color: #fff;
+    margin: 25px 0px 35px;
+}
